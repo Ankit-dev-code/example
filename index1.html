@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+/*  *(astrict) matlab property in *(astrict) apply to whole html text  */
+        *{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+        /* normal select based on attribute */
+        p{
+            color: red;
+        }
+        /* select based on id */
+         #para{
+            background-color: aqua;
+        }
+        /* select based on class */
+        .para2{
+            background-color: yellow;
+        }
+        /* grouping selector */
+        h1,h2{
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <!-- multiple attribute can have same class  -->
+    <p class="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora laudantium corrupti 
+        a amet ipsum, omnis qui maxime numquam inventore. Repudiandae.</p>
+       <!-- id is unique -->
+        <p id="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, praesentium.</p>
+
+<p class="para2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, quia!</p>
+
+<h1> Hello world h1</h1>
+<h2> Hello world h2</h2>
+    </body>
+</html>
